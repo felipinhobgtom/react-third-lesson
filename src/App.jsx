@@ -13,6 +13,10 @@ import Objects from "./components/Table";
 function App() {
   return (
     <main>
+
+      <h1>Felipe Barros Gouveia Tome - Equipe: 04</h1>
+      <h2>Terceira lista de ReactJS</h2>
+
       <div className="cartao">
         <h2>Exercício 1</h2>
         <Lista />
