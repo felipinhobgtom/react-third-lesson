@@ -1,6 +1,30 @@
+body{
+  background: conic-gradient(from -90deg at 50% 105%, white, orchid);
+}
+
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2rem;
   text-align: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cartao{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: conic-gradient(at bottom left, deeppink, cyan);
+  border: 3px solid #000;
+  border-radius: 50px;
+  padding: 50px;
+  height: 100%;
 }
